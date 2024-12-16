@@ -1,0 +1,46 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="MULTIPLICATION"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/mnum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the first number"
+        android:inputType="number"
+        android:textColorHint="#808080"
+        android:padding="12dp" />
+
+
+    <EditText
+        android:id="@+id/mnum2"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the secound number"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mulbt"
+        android:layout_margin="4dp"
+        android:background="@drawable/round_button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        android:text="MULT"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_margin="4dp"
+        android:background="@drawable/round_button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/back4"
+        android:text="BACK TO MAIN"/>
+
+</LinearLayout>
